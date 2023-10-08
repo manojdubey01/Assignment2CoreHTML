@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+</head>
+<body>
+
+<!-- Question8:  Create a table to display a conference schedule. Each row corresponds to a time slot, and each column 
+corresponds to a room. Some time slots might have multiple sessions running simultaneously in different 
+rooms. Utilize rowspan and colspan attributes as necessary to accommodate this complex schedule. 
+(use table attribute “cellpadding”. to give extra padding in each table cell ). -->
+
+    <h1>Conference Schedule</h1>
+    
+    <table border="1" cellpadding="10">
+        <thead>
+            <tr >
+                <th>Time</th>
+                <th>Room1</th>
+                <th>Room2</th>
+                <th>Room3</th>
+                <th>Room4</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+
+                <td rowspan="3">9 AM - 10 AM</td>
+                <td rowspan="2">Keynote</td>
+                <td>Session A</td>
+                <td>Session B</td>
+                <td rowspan="3">Session C</td>
+            </tr>
+        
+            <tr>
+                <!-- <td >9 AM - 10 AM</td> -->
+                <!-- <td >Keynote</td> -->
+                <td>Session D </td>
+                <td>Session E </td>
+                <!-- <td >Session C</td> -->
+            </tr>
+
+            <tr>
+                <!-- <td >9 AM - 10 AM</td> -->
+                <td >10:30 AM - 11:30 AM</td>
+                <td colspan="2">Session F</td>
+                <!-- <td>Session F</td> -->
+                <!-- <td >Session C</td> -->
+            </tr>
+
+            <tr>
+                <td >12 PM - 1 PM</td>
+                <td colspan="4">Lunch Break</td>
+                <!-- <td>Lunch Break</td>
+                <td>Lunch Break</td>
+                <td >Lunch Break</td> -->
+            </tr>
+
+            <tr>
+                <td rowspan="2">1 PM - 2 PM</td>
+                <td >Session G </td>
+                <td rowspan="2">Session H </td>
+                <td>Session I </td>
+                <td >Session J</td>
+            </tr>
+
+            <tr>
+                <!-- <td >1 PM - 2 PM</td> -->
+                <td >Session K  </td>
+                <!-- <td>Session H </td> -->
+                <td>Session L  </td>
+                <td >Session M </td>
+            </tr>
+    
+        </tbody>    
+    </table>
+</body>
+</html>

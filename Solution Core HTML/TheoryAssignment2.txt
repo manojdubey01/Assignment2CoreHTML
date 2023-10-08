@@ -1,0 +1,53 @@
+Question 1: 
+
+	File names: 
+	    1. SolutionQ1.html
+	    2. SolutionCode1.jpeg
+	    3. BrowserOutput1.jpeg
+
+...................................................................
+
+Question 2:
+
+	File names: 
+	    1. SolutionQ2.html
+	    2. SolutionCode2.jpeg
+	    3. BrowserOutput2.jpeg
+
+
+...................................................................
+
+Question 3:
+
+        File names: 
+	    1. home3.index.html
+	    2. webdevelopment3.index.html
+	    3. webdesign3.index.html
+	    4. BrowserOutputHomePageQ3.1.png
+	    5. BrowserOutputWebDevelopmentQ3.2.png
+	    6. BrowserOutputWebDesignQ3.3.png
+	    7. SolutionCodeHomeQ3.1.png
+            8. SolutionCodeWebDevelopmentQ3.2.png
+	    9. SolutionCodeWebDesignQ3.3.png
+
+...................................................................
+
+Question 7:
+
+        File names: 
+	    1. home7.index.html
+	    2. SolutionCodeHome7.png
+	    3. BrowserOutputQ7.png
+
+...................................................................
+
+Question 8:
+
+        File names: 
+	    1. home8.index.html
+	    2. SolutionCodeHome8.png
+	    3. BrowserOutputQ8.png
+
+...................................................................
+
+
